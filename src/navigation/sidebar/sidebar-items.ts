@@ -1,4 +1,4 @@
-import { Building2, Fingerprint, type LucideIcon, UserRound } from "lucide-react";
+import { Building2, type LucideIcon, UserRound } from "lucide-react";
 
 export type NavBadge = "new" | "soon";
 
@@ -77,17 +77,6 @@ export const sidebarItems: NavGroup[] = [
         title: "Profile",
         url: "/dashboard/profile",
         icon: UserRound,
-      },
-      {
-        id: "authentication",
-        title: "Authentication",
-        icon: Fingerprint,
-        subItems: [
-          { id: "auth-login-v1", title: "Login v1", url: "/auth/v1/login", newTab: true },
-          { id: "auth-login-v2", title: "Login v2", url: "/auth/v2/login", newTab: true },
-          { id: "auth-register-v1", title: "Register v1", url: "/auth/v1/register", newTab: true },
-          { id: "auth-register-v2", title: "Register v2", url: "/auth/v2/register", newTab: true },
-        ],
       },
     ],
   },
