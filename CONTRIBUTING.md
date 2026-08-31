@@ -20,8 +20,7 @@ src
 │   ├── (auth)        # Auth layouts & screens
 │   ├── (main)        # Main dashboard routes
 │   │   └── (dashboard)
-│   │       ├── property   # Properties, units, tenants, leases, maintenance, ...
-│   │       └── profile
+│   │       └── property   # Properties, units, tenants, leases, maintenance, ...
 │   └── layout.tsx
 ├── components        # Shared UI components
 ├── hooks             # Reusable hooks

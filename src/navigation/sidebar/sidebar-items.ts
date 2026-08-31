@@ -1,4 +1,4 @@
-import { Building2, type LucideIcon, UserRound } from "lucide-react";
+import { Building2, type LucideIcon } from "lucide-react";
 
 export type NavBadge = "new" | "soon";
 
@@ -65,18 +65,6 @@ export const sidebarItems: NavGroup[] = [
           { id: "property-analytics", title: "Analytics", url: "/dashboard/property/analytics" },
           { id: "property-settings", title: "Settings", url: "/dashboard/property/settings" },
         ],
-      },
-    ],
-  },
-  {
-    id: 2,
-    label: "Pages",
-    items: [
-      {
-        id: "profile",
-        title: "Profile",
-        url: "/dashboard/profile",
-        icon: UserRound,
       },
     ],
   },
