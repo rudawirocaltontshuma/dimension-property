@@ -1,6 +1,6 @@
-# Contributing to Studio Admin
+# Contributing to Dimension Property
 
-Thanks for showing interest in improving **Studio Admin** (repo: `next-shadcn-admin-dashboard`).  
+Thanks for showing interest in improving **Dimension Property** (repo: `property_reeal_estate_management`), a frontend-only Property & Real Estate Management Platform demo built on the Studio Admin template.  
 This guide will help you set up your environment and understand how to contribute.
 
 ---
@@ -22,6 +22,7 @@ src
 │   ├── (auth)        # Auth layouts & screens
 │   ├── (main)        # Main dashboard routes
 │   │   └── (dashboard)
+│   │       ├── property   # Dimension Property module (properties, units, tenants, leases, ...)
 │   │       ├── crm
 │   │       ├── finance
 │   │       ├── default
@@ -44,16 +45,16 @@ If you’d like a more detailed example of this setup, check out the [Next Coloc
 
 1. Fork the Repository
    
-   Click [here](https://github.com/arhamkhnz/next-shadcn-admin-dashboard/fork) to fork the repository.
+   Click [here](https://github.com/rudawirocaltontshuma/property_reeal_estate_management/fork) to fork the repository.
 
 2. Clone the Repository  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/next-shadcn-admin-dashboard.git
+   git clone https://github.com/YOUR_USERNAME/property_reeal_estate_management.git
    ```
    
 3. Navigate into the Project  
    ```bash
-   cd next-shadcn-admin-dashboard
+   cd property_reeal_estate_management
    ```
 
 4. **Install dependencies**
@@ -90,7 +91,8 @@ If you’d like a more detailed example of this setup, check out the [Next Coloc
 
 - **External Pages**: Landing pages or other non-dashboard routes → `src/app/(external)/`  
 - **Auth Screens**: Login, register, and authentication layouts → `src/app/(main)/auth/`  
-- **Dashboard Screens**: Feature dashboards like CRM, Finance, Analytics → `src/app/(main)/dashboard/`
+- **Dashboard Screens**: Feature dashboards like CRM, Finance, Analytics → `src/app/(main)/dashboard/`  
+- **Dimension Property**: Property & real estate management screens → `src/app/(main)/dashboard/property/`
 - **Components**: Reusable UI goes in `src/components/`  
 - **Hooks**: Custom logic goes in `src/hooks/`  
 - **Themes**: New presets under `src/styles/presets/`  
@@ -118,7 +120,7 @@ If you’d like a more detailed example of this setup, check out the [Next Coloc
 
 ## Questions & Support
 
-- Report bugs, suggestions, or issues via [GitHub Issues](https://github.com/arhamkhnz/next-shadcn-admin-dashboard/issues)
+- Report bugs, suggestions, or issues via [GitHub Issues](https://github.com/rudawirocaltontshuma/property_reeal_estate_management/issues)
 
 ---
 

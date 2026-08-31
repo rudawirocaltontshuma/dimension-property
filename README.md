@@ -1,6 +1,8 @@
-# Next.js Admin Template with TypeScript & Shadcn UI
+# Dimension Property — Property & Real Estate Management Platform
 
-**Studio Admin** - Includes multiple dashboards, authentication layouts, customizable theme presets, and more.
+**Dimension Property** is a frontend-only demo of a property & real estate management platform, built on top of **Studio Admin** — a Next.js admin template with TypeScript & Shadcn UI that includes multiple dashboards, authentication layouts, customizable theme presets, and more.
+
+> This repository is a portfolio build. Dimension Property (`/dashboard/property/*`) is entirely frontend — no backend, no database, no authentication, no real APIs, no real payments, and no persistent storage. All property, tenant, lease, and financial data shown is fictional mock data generated in-memory for demonstration purposes only.
 
 <img src="https://github.com/arhamkhnz/next-shadcn-admin-dashboard/blob/main/media/dashboard.png?version=5" alt="Dashboard Screenshot">
 
@@ -57,7 +59,25 @@ Most admin templates I found, free or paid, felt cluttered, outdated, or too rig
 
 ## Screens
 
-### Available
+### Dimension Property (`/dashboard/property/*`)
+- Dashboard (KPIs + occupancy, revenue, performance, maintenance cost, and lease expiration charts)
+- Properties (directory) + Property Detail (Overview, Units, Tenants, Leases, Maintenance, Inspections, Expenses, Documents, Activity)
+- Units
+- Tenants + Tenant Detail
+- Leases
+- Applications
+- Maintenance (kanban board)
+- Inspections
+- Rent Overview
+- Expenses (+ charts)
+- Vendors
+- Documents (categorized document center)
+- Tasks (kanban board)
+- Reports
+- Analytics
+- Settings
+
+### Studio Admin (base template)
 - Default Dashboard  
 - CRM Dashboard  
 - Finance Dashboard  
@@ -105,12 +125,12 @@ _Deploy your own copy with one click._
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/arhamkhnz/next-shadcn-admin-dashboard.git
+   git clone https://github.com/rudawirocaltontshuma/property_reeal_estate_management.git
    ```
    
 2. **Navigate into the project**
    ```bash
-    cd next-shadcn-admin-dashboard
+    cd property_reeal_estate_management
    ```
    
 3. **Install dependencies**
