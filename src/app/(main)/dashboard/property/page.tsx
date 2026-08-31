@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <div className="flex flex-col gap-4">
       <PageHeader
-        title="Nexora Property"
+        title="Dimension Property"
         description="Property & Real Estate Management Platform — a frontend-only demonstration."
         actions={
           <Badge variant="outline" className="gap-1">

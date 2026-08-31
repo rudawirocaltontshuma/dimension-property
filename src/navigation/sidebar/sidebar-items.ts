@@ -88,7 +88,7 @@ export const sidebarItems: NavGroup[] = [
       },
       {
         id: "property",
-        title: "Nexora Property",
+        title: "Dimension Property",
         icon: Building2,
         badge: "new",
         subItems: [

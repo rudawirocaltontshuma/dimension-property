@@ -1,4 +1,4 @@
-// Nexora Property — colocated in-memory mock data.
+// Dimension Property — colocated in-memory mock data.
 // This entire product is a frontend-only demonstration: nothing here is persisted,
 // fetched from a network, or backed by a real database, auth, or payment provider.
 
