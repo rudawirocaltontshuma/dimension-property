@@ -47,11 +47,11 @@ export function SettingsForm() {
         <CardContent className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <div className="space-y-2">
             <Label htmlFor="org-name">Organization name</Label>
-            <Input id="org-name" defaultValue="Nexora Property Group" />
+            <Input id="org-name" defaultValue="Dimension Property Group" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="org-email">Contact email</Label>
-            <Input id="org-email" type="email" defaultValue="operations@nexoraproperty.dev" />
+            <Input id="org-email" type="email" defaultValue="operations@dimensionproperty.dev" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="org-phone">Phone</Label>
@@ -87,7 +87,7 @@ export function SettingsForm() {
             </div>
             <div className="space-y-2">
               <Label htmlFor="pm-email">Email</Label>
-              <Input id="pm-email" type="email" defaultValue="alicia.moreno@nexoraproperty.dev" />
+              <Input id="pm-email" type="email" defaultValue="alicia.moreno@dimensionproperty.dev" />
             </div>
           </div>
         </CardContent>
