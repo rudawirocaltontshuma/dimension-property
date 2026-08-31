@@ -1,14 +1,12 @@
 # Contributing to Dimension Property
 
-Thanks for showing interest in improving **Dimension Property** (repo: `property_reeal_estate_management`), a frontend-only Property & Real Estate Management Platform demo built on the Studio Admin template.  
-This guide will help you set up your environment and understand how to contribute.
+Thanks for your interest in improving **Dimension Property**, a property & real estate management platform. This guide will help you set up your environment and understand how to contribute.
 
 ---
 
 ## Overview
 
-This project is built with **Next.js 16**, **TypeScript**, **Tailwind CSS v4**, and **Shadcn UI**.  
-The goal is to keep the codebase modular, scalable, and easy to extend.
+This project is built with **Next.js 16**, **TypeScript**, **Tailwind CSS v4**, and **shadcn/ui**. The goal is to keep the codebase modular, scalable, and easy to extend.
 
 ---
 
@@ -22,20 +20,16 @@ src
 │   ├── (auth)        # Auth layouts & screens
 │   ├── (main)        # Main dashboard routes
 │   │   └── (dashboard)
-│   │       ├── property   # Dimension Property module (properties, units, tenants, leases, ...)
-│   │       ├── crm
-│   │       ├── finance
-│   │       ├── default
-│   │       └── ...
+│   │       ├── property   # Properties, units, tenants, leases, maintenance, ...
+│   │       └── profile
 │   └── layout.tsx
 ├── components        # Shared UI components
 ├── hooks             # Reusable hooks
 ├── lib               # Config & utilities
+├── navigation        # Sidebar / nav configuration
 ├── styles            # Tailwind / theme setup
 └── types             # TypeScript definitions
 ```
-
-If you’d like a more detailed example of this setup, check out the [Next Colocation Template](https://github.com/arhamkhnz/next-colocation-template), where the full structure is explained with examples.
 
 ---
 
@@ -44,15 +38,15 @@ If you’d like a more detailed example of this setup, check out the [Next Coloc
 ### Fork and Clone the Repository
 
 1. Fork the Repository
-   
+
    Click [here](https://github.com/rudawirocaltontshuma/property_reeal_estate_management/fork) to fork the repository.
 
-2. Clone the Repository  
+2. Clone the Repository
    ```bash
    git clone https://github.com/YOUR_USERNAME/property_reeal_estate_management.git
    ```
-   
-3. Navigate into the Project  
+
+3. Navigate into the Project
    ```bash
    cd property_reeal_estate_management
    ```
@@ -79,31 +73,30 @@ If you’d like a more detailed example of this setup, check out the [Next Coloc
 
 - Use clear commit messages:
   ```bash
-  git commit -m "feat: add finance dashboard screen"
+  git commit -m "feat: add lease renewal workflow"
   ```
 
 - Open a Pull Request once ready.
-- If your change adds a new UI screen or component, include a screenshot in your PR description.
+- If your change adds or updates a UI screen, include a screenshot in your PR description.
 
 ---
 
 ## Where to Contribute
 
-- **External Pages**: Landing pages or other non-dashboard routes → `src/app/(external)/`  
-- **Auth Screens**: Login, register, and authentication layouts → `src/app/(main)/auth/`  
-- **Dashboard Screens**: Feature dashboards like CRM, Finance, Analytics → `src/app/(main)/dashboard/`  
-- **Dimension Property**: Property & real estate management screens → `src/app/(main)/dashboard/property/`
-- **Components**: Reusable UI goes in `src/components/`  
-- **Hooks**: Custom logic goes in `src/hooks/`  
-- **Themes**: New presets under `src/styles/presets/`  
+- **Dashboard & Property Screens**: `src/app/(main)/dashboard/property/`
+- **Auth Screens**: Login, register, and authentication layouts → `src/app/(main)/auth/`
+- **External Pages**: Landing pages or other non-dashboard routes → `src/app/(external)/`
+- **Components**: Reusable UI goes in `src/components/`
+- **Hooks**: Custom logic goes in `src/hooks/`
+- **Themes**: Presets under `src/styles/presets/`
 
 ---
 
 ## Guidelines
 
 - Prefer **TypeScript types** over `any`
-- Husky pre-commit hooks are enabled - linting and formatting run automatically when you commit, and if there are errors the commit will be blocked until they are fixed. 
-- Follow **Shadcn UI** style & Tailwind v4 conventions
+- Husky pre-commit hooks are enabled — linting and formatting run automatically when you commit, and if there are errors the commit will be blocked until they are fixed.
+- Follow **shadcn/ui** style & Tailwind v4 conventions
 - Keep accessibility in mind (ARIA, keyboard nav)
 - Use clear commit messages with conventional prefixes (`feat:`, `fix:`, `chore:`, etc.)
 - Avoid unnecessary dependencies — prefer existing utilities where possible
@@ -112,18 +105,16 @@ If you’d like a more detailed example of this setup, check out the [Next Coloc
 
 ## Submitting PRs
 
-- Open a Pull Request once your changes are ready.  
-- Ensure your branch is up to date with `main` before submitting.  
+- Open a Pull Request once your changes are ready.
+- Ensure your branch is up to date with `main` before submitting.
 - Reference any related issue in your PR for context.
 
 ---
 
 ## Questions & Support
 
-- Report bugs, suggestions, or issues via [GitHub Issues](https://github.com/rudawirocaltontshuma/property_reeal_estate_management/issues)
+Report bugs, suggestions, or issues via [GitHub Issues](https://github.com/rudawirocaltontshuma/property_reeal_estate_management/issues).
 
 ---
 
 Your contributions keep this project growing. 🚀
-
-**Happy Vibe Coding!**
